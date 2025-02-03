@@ -4,16 +4,16 @@ import Image from "next/image";
 export default function HomeSection() {
   return (
     <section
-      className="container min-h-[calc(100vh-93px)] flex items-center "
+      className="min-h-[calc(100vh-93px)] flex items-center pt-10 pb-5"
       id="home">
-      <div className="pt-10 pb-5 h-full">
+      <div className="container h-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-4 h-full pb-24">
           <div className="col-span-12 lg:col-span-7 lg:mb-0 mb-10">
             <div className="flex flex-col justify-center h-full px-2">
               <div className="hero-catchphrase slider-custom-anim-left mb-4">
                 {`✨ Together, let's build something extraordinary! ✨`}
               </div>
-              <div className=" mb-3">
+              <div className="mb-3">
                 <h1 className="hero-heading">
                   Welcome to BuilderClan
                   <br className="md:hidden" /> The Tech Community where
