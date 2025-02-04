@@ -25,7 +25,7 @@ export default function Footer() {
           <span>Somewhere in the world</span>
         </div>
       </div>
-      <div className="socials">
+      <div className="socials mt-10">
         <div className="flex gap-2">
           <button className={`px-6 py-3 text-white social-icon`}>
             <Image
