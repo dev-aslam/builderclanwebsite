@@ -1,6 +1,8 @@
 // "use client";
 import "./globals.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
 // import { useEffect, useState } from "react";
 
 export const metadata = {
@@ -29,6 +31,8 @@ export default function RootLayout({ children }) {
           <Header />
         </div>
         {children}
+        <Footer />
+        <BackToTop />
       </body>
     </html>
   );

@@ -16,13 +16,13 @@ export default function HomeSection() {
               <div className="mb-3">
                 <h1 className="hero-heading">
                   Welcome to BuilderClan
-                  <br className="md:hidden" /> The Tech Community where
+                  <br className="hidden md:block" /> The Tech Community where
                   <br />
                   <span>Innovation meets Collaboration!</span>
                 </h1>
               </div>
               <div className="hero-sub-text mb-10">
-                {`At Builder Clan, we believe in building solutions that matter. Whether you're a coder, a designer, or a tech enthusiast, you're part of a community that fosters creativity, learning, and growth.`}
+                {`Join a dynamic community where innovation meets collaboration. Whether you're a coder, designer, or visionary, you belong here. Let's build something extraordinary together!`}
               </div>
               <div className="header-cta">
                 <Button content="Get Started" active />
