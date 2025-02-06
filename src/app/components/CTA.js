@@ -9,7 +9,7 @@ export default function CTA() {
             <h1 className="section-heading text-2xl md:text-4xl font-bold">
               <span className="text-white">Join the</span> Clan!
             </h1>
-            <div className="section-sub-text text-lg md:text-xl">{`Visit our website.`}</div>
+            <div className="section-sub-text">{`Visit our website.`}</div>
           </div>
           <Button content="Join Discord" active />
         </div>
