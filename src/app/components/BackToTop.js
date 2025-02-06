@@ -25,7 +25,7 @@ export default function BackToTop() {
   if (!showButton) return null;
   return (
     <Link
-      className="back-to-top fixed bottom-10 right-10 cursor-pointer"
+      className="back-to-top fixed bottom-10 right-10 cursor-pointer z-50"
       href="#home">
       <Image src={`/Arrowup.svg`} alt="up-arrow" width={23} height={30} />
     </Link>
